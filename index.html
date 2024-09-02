@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            background-color: purple;
+            border: 5px ridge greenyellow;
+        }
+        div>p{
+            background-color: rgb(230, 151, 47);
+            border: 5px dotted red;
+            background-clip: padding-box;
+        }
+        div~p{
+            background-color: red;
+            border: 5px dashed blue;
+            background-clip: content-box;
+        }
+        div+p{
+            background-color: aqua;
+            background-clip: unset;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p class="para1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quibusdam fuga veritatis eius
+            exercitationem doloribus eaque, quod ducimus fugiat excepturi quam itaque quaerat rem sunt, ipsam sequi,
+            alias
+            iusto debitis!</p>
+        <p class="para2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic enim assumenda voluptatem
+            voluptas
+            accusantium ipsam iure magnam, nesciunt quibusdam tenetur.</p>
+        <section>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi pariatur nam quam aliquam dicta officia
+                laudantium harum ratione ducimus neque.
+            </p>
+        </section>
+        <p class="para3"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam praesentium, eaque dolorem
+            est
+            recusandae fugiat nam, rerum, quos in aut enim ducimus molestias placeat inventore odit soluta esse
+            perspiciatis
+            numquam quae corporis cupiditate ad omnis. Sit, nisi. Atque, accusamus itaque!</p>
+            </div>
+        <p class="para4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis aperiam, repellat
+            dolor
+            maiores illum laboriosam minus labore sit exercitationem eum cum, impedit perferendis atque?</p>
+        <p class="para5"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum quas labore assumenda natus
+            commodi, temporibus dolores aliquam debitis eaque ipsum. Dignissimos, qui deserunt! Doloremque, ex.</p>
+    
+</body>
+
+</html>
